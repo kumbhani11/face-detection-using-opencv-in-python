@@ -1,7 +1,7 @@
 import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-#img = cv2.imread('prac-1.jpg')
+#img = cv2.imread('prac-1.jpg') # uncomment this to use face detection on image
 cap = cv2.VideoCapture(0)
 while True:
     _,img = cap.read()
